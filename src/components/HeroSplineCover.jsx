@@ -7,7 +7,7 @@ export default function HeroSplineCover() {
       {/* 3D Spline Scene */}
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/5EwoDiC2tChvmy4K/scene.splinecode"
+          scene="https://prod.spline.design/Zn7XRxnnbSat5OJG/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>

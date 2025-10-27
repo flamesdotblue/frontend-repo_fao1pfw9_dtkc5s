@@ -2,6 +2,8 @@ import React from 'react';
 import HeroSplineCover from './components/HeroSplineCover';
 import FeatureHighlights from './components/FeatureHighlights';
 import DrugSpotlightMetformin from './components/DrugSpotlightMetformin';
+import DrugComparisonTable from './components/DrugComparisonTable';
+import DiabetesPathwayFlowchart from './components/DiabetesPathwayFlowchart';
 import CallToAction from './components/CallToAction';
 
 export default function App() {
@@ -10,6 +12,8 @@ export default function App() {
       <HeroSplineCover />
       <FeatureHighlights />
       <DrugSpotlightMetformin />
+      <DrugComparisonTable />
+      <DiabetesPathwayFlowchart />
       <CallToAction />
       <footer className="bg-white border-t border-slate-200">
         <div className="mx-auto max-w-7xl px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
